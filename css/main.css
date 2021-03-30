@@ -1,0 +1,149 @@
+/* body {
+  font-family: "Merriweather", serif;
+} */
+
+/* NAVBAR */
+.bg-green {
+  background-color: #a7c957;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 400 !important;
+}
+
+.navbar-brand {
+  color: #3a5a40 !important;
+  font-family: "Merriweather", serif;
+}
+
+/* Buttons */
+.green-btn {
+  background-color: #a7c957;
+  outline: none;
+  color: white;
+  font-size: 1.25em;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 15px;
+  height: 45px;
+}
+
+.darkgreen-btn {
+  background-color: #3a5a40;
+  outline: none;
+  color: white;
+  font-size: 1.25em;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 15px;
+  height: 45px;
+}
+
+/*Login */
+.env-login {
+  height: calc(100vh - 56px);
+}
+
+.login-left {
+  height: calc(100vh - 56px);
+  background: url("/images/login-left.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #a7c957;
+}
+
+.login-right {
+  height: calc(100vh - 56px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-right img {
+  max-width: 100%;
+}
+
+.login-form {
+  display: block;
+  background-color: #e5e5e5;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 40px 15px;
+  border-radius: 15px;
+}
+
+.login-form input {
+  display: block;
+  box-sizing: border-box;
+  padding: 0;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  text-indent: 10px;
+  margin-bottom: 20px;
+}
+
+.login-form input:focus {
+  outline: none;
+}
+
+.forgot-password {
+  color: #a7c957;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.login-quote {
+  color: #606c38;
+  max-width: 70%;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 442px) {
+  .green-btn,
+  .darkgreen-btn {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .login-left {
+    border: none;
+  }
+
+  .login-right {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 50px 0;
+  }
+
+  .login-right img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
+
+  .login-quote {
+    width: 70%;
+  }
+
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

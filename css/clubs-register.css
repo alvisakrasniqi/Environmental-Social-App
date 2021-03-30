@@ -1,0 +1,101 @@
+.clubs-register {
+  margin-top: 30px;
+}
+
+.clubs-register h1 {
+  text-align: center;
+}
+
+.clubs-register p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.clubs-register img {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  height: 300px;
+  object-fit: contain;
+}
+
+.clubs-register-table {
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+tbody tr {
+  background-color: #e5e5e57a;
+  padding: 10px 20px;
+}
+
+tbody tr td {
+  font-weight: 600;
+}
+
+.club-item-green {
+  color: #7ec223;
+}
+
+.club-item-blue {
+  color: #00b4d8;
+}
+
+.club-item-red {
+  color: #c1121f;
+}
+
+.club-item-yellow {
+  color: #e7d61f;
+}
+
+.club-item-violete {
+  color: #7209b7;
+}
+
+.club-item-brown {
+  color: #926d53;
+}
+
+.club-item-darkred {
+  color: #9e405e;
+}
+
+.club-item-lightpurple {
+  color: #7678ed;
+}
+
+.club-item-lightblue {
+  color: #86bbd8;
+}
+
+@media screen and (max-width: 992px) {
+  .clubs-register-table {
+    width: 100%;
+  }
+
+  .clubs-register img {
+    height: 200px;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .clubs-register-table {
+    overflow: scroll;
+  }
+
+  tr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-green">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">Greenify</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto flex-nowrap">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clubs.html">Clubs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="donations.html">Donations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="petitions.html">Petitions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="top-home">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/home-clubs.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Building the Next Generation of Nature-Lovers</h3>
+                <p>
+                  Greenify offers interactive online education clubs for Young
+                  lovers of nature. Join our Clubs
+                  <a href="clubs.html" class="slider-link"><button class="darkgreen-btn" id="carousel-btn">
+                    Join Clubs
+                  </button>
+                </a>
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/home-news.png" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Be informed in time</h3>
+                <p>
+                  Greenify notifies you in time for the latest news related to
+                  the Environment
+                  <a href="news.html" class="slider-link"><button class="darkgreen-btn" id="carousel-btn">News</button> </a>
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/home-events.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Raise your voice, not the sea level!</h3>
+                <p>
+                  Greenify organizes events and activities where your voice is
+                  heard! It is your right to live in a healthy, clean and safe
+                  environment. Respect your right!
+                  <button class="darkgreen-btn" id="carousel-btn">
+                    Events
+                  </button>
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/home-petition.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Start a petition</h3>
+                <p>
+                  Petitions are a way to bring our concerns about environmental
+                  and sustainable development issues to the attention of the
+                  federal government and obtain a formal response.
+                  <a href="petitions.html" class="slider-link"></a><button class="darkgreen-btn" id="carousel-btn">
+                    Petitions
+                  </button> </a>
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="images/home-donate.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Donate Green</h3>
+                <p>
+                  When you donate your clothes, you are saving the environment
+                  from a lot of harm. ... Clothing that sits in landfill
+                  releases toxic greenhouse gases like carbon dioxide and
+                  methane into the environment when they break down.
+                  <a href="donate.html" class="slider-link"></a><button class="darkgreen-btn" id="carousel-btn">
+                    Donate
+                  </button> </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="home-statistics">
+        <div class="row">
+          <div class="col-lg-3 col-md-12">
+            <div class="home-legend">
+              <div class="legend-row">
+                <div class="legend-button legend-green">0-50</div>
+                <div class="legend-text">Good</div>
+              </div>
+
+              <div class="legend-row">
+                <div class="legend-button legend-yellow">51-150</div>
+                <div class="legend-text">Moderate</div>
+              </div>
+
+              <div class="legend-row">
+                <div class="legend-button legend-orange">101-150</div>
+                <div class="legend-text">Unhealthy for <br>sensitive groups</div>
+              </div>
+
+              <div class="legend-row">
+                <div class="legend-button legend-red">151-200</div>
+                <div class="legend-text">Unhealthy</div>
+              </div>
+
+              <div class="legend-row">
+                <div class="legend-button legend-violete">201-300</div>
+                <div class="legend-text">Very Unhealthy</div>
+              </div>
+
+              <div class="legend-row">
+                <div class="legend-button legend-brown">300+</div>
+                <div class="legend-text">Hazardous</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-12">
+            <div class="home-metrics">
+              <h3 class="home-metrics-title">
+                Air Pollution: Real-time Air Quality Index (AQI)
+              </h3>
+
+              <h5 class="home-metrics-city">Pristina US Consulate Real-time</h5>
+
+              <p class="home-metrics-date">
+                Updated on Friday 9:00 <br />
+                Wednesday, March 31, 2021 9:00 AM
+              </p>
+
+              <div class="home-metrics-info">
+                <p>
+                  +0100 <br />
+                  Temp.: 3°C
+                </p>
+
+                <p style="color: red">
+                  PM2.5 AQI <br />
+                  161
+                </p>
+              </div>
+
+                <div class="home-metrics-graphs">
+                  <img src="images/metrics-1.png" alt="" />
+                  <img src="images/metrics-2.png" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-12">
+                <div class="home-metrics-graphs-second">
+                    <img src="images/metrics-3.png" alt="" />
+                  <img src="images/metrics-4.png" alt="" />
+                  <img src="images/metrics-5.png" alt="" />
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
